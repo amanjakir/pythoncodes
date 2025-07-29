@@ -6,9 +6,9 @@
 
 
 
-# name=input(" Enter your name :")
-# age=input(" Enter your age :")
-# # print("My name is ",name,"i am ",age," years old")
+name=input(" Enter your name :")
+ age=input(" Enter your age :")
+print("My name is ",name,"i am ",age," years old")
 # print(f"My name is {name} i am {age} years old")
 # print(type(name))
 # print(type(age))
