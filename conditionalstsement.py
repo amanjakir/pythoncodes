@@ -48,32 +48,34 @@
 #     print("Number is 3")
 #     else:
 #           print("Invalid choice")
-# print("1.Addition\n2.Substraction\n3.Multiply\n4.division")
-# choice=int(input("enter your choice:"))
-# a=int(input("enter first number"))
-# b=int(input("enter the second number"))
-# if choice ==1:
-#     print(a+b)
-# elif choice==2:
-#     print(a-b)
-# elif choice==3:
-#     print(a*b)
-# elif choice==4:
-#     print(a/b)
-# else:
-#     print("Invalid choice")
-a=int(input("Enter first number"))
-b=int(input("Enter the second number"))
+a=int(input("enter first number"))
+b=int(input("enter the second number"))
 print("1.Addition\n2.Substraction\n3.Multiply\n4.division")
 choice=int(input("enter your choice:"))
-match choice:
-    case 1:
-        print(a+b)
-    case 2:
-        print(a-b)
-    case 3:
-        print(a*b)
-    case 4:
-        print(a/b)
-    case __:
-        print("Invalid choice")
+if choice == 1:
+    print(f"{a} + {b} = {a + b}")
+elif choice == 2:
+    print(f"{a} - {b} = {a - b}")
+elif choice == 3:
+    print(f"{a} * {b} = {a * b}")
+elif choice == 4:
+    print(f"{a} / {b} = {a / b}")
+else:
+    print("Invalid choice")
+
+
+# a=int(input("Enter first number"))
+# b=int(input("Enter the second number"))
+# print("1.Addition\n2.Substraction\n3.Multiply\n4.division")
+# choice=int(input("enter your choice:"))
+# match choice:
+#     case 1:
+#         print(a+b)
+#     case 2:
+#         print(a-b)
+#     case 3:
+#         print(a*b)
+#     case 4:
+#         print(a/b)
+#     case __:
+#         print("Invalid choice")
