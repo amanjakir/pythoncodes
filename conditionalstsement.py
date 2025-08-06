@@ -48,8 +48,8 @@
 #     print("Number is 3")
 #     else:
 #           print("Invalid choice")
-a=int(input("enter first number"))
-b=int(input("enter the second number"))
+a=int(input("enter first number :"))
+b=int(input("enter the second number :"))
 print("1.Addition\n2.Substraction\n3.Multiply\n4.division")
 choice=int(input("enter your choice:"))
 if choice == 1:
@@ -62,6 +62,7 @@ elif choice == 4:
     print(f"{a} / {b} = {a / b}")
 else:
     print("Invalid choice")
+input("Do you wish to continue (yes/no) ?")
 
 
 # a=int(input("Enter first number"))
