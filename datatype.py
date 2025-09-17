@@ -4,3 +4,5 @@ p=6.7
 print(type(p))
 d=7j
 print(type(d))
+
+

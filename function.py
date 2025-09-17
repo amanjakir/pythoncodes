@@ -25,6 +25,53 @@
 # num=int(input("Enter the number :"))
 # Factorial(num)
 
-num=int(input("Enter the number :"))
-if num > 1:
+
+
+
+num = int(input("Enter a number: "))
+if num <= 1:
+
+    is_prime = True
+    for i in range(2, num  + 1):
+        if num % i == 0:
+            is_prime = False
+            break
+    if is_prime:
+        print("Prime number")
+    else:
+        print("Not a prime number")
+
+
+# num = int(input("Enter a number: "))
+# if num <=1:
+#     is_prime= True
+#     for i in range(2, num ** 0.5 ):
+#         if num % i == 0:
+#            is_prime = False
+#            break
+#     if is_prime:
+#         print("prime number")
+#     else:
+#         print("not a prime number")
+
+
+# def Addition(a,b):
+#     print("hi")
+#     return a+b
+#
+#
+# s=Addition(67,33)
+# print("Sum is ",s)
+
+def f():
+    print(a)
+a="hello"
+f()
+print(a)
+
+
+
+
+
+
 

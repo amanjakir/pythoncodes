@@ -1,15 +1,15 @@
-          # if condition: statements
-# age=int(input("enter your age:"))
-# if age>=18:
-#     print("Eligible for voting")
-# else:
-#     print("Not eligible for voting")
+# if condition: statements
+age=int(input("enter your age:"))
+if age>=18:
+    print("Eligible for voting")
+else:
+    print("Not eligible for voting")
 
-# num=int(input("enter a number : "))
-# if num % 2 == 0:
-#     print(f"{num} is even number .")
-# else:
-#     print(f"{num} is odd number .")
+num=int(input("enter a number : "))
+if num % 2 == 0:
+    print(f"{num} is even number .")
+else:
+    print(f"{num} is odd number .")
 
 
 # num=input("enter number separated by spaces :")
@@ -48,21 +48,28 @@
 #     print("Number is 3")
 #     else:
 #           print("Invalid choice")
-a=int(input("enter first number :"))
-b=int(input("enter the second number :"))
-print("1.Addition\n2.Substraction\n3.Multiply\n4.division")
-choice=int(input("enter your choice:"))
-if choice == 1:
-    print(f"{a} + {b} = {a + b}")
-elif choice == 2:
-    print(f"{a} - {b} = {a - b}")
-elif choice == 3:
-    print(f"{a} * {b} = {a * b}")
-elif choice == 4:
-    print(f"{a} / {b} = {a / b}")
-else:
-    print("Invalid choice")
-input("Do you wish to continue (yes/no) ?")
+# while True:
+# a=int(input("enter first number :"))
+# b=int(input("enter the second number :"))
+# print("1.Addition\n2.Substraction\n3.Multiply\n4.division")
+# choice=int(input("enter your choice:"))
+# if choice == 1:
+#     print(f"{a} + {b} = {a + b}")
+# elif choice == 2:
+#     print(f"{a} - {b} = {a - b}")
+# elif choice == 3:
+#     print(f"{a} * {b} = {a * b}")
+# elif choice == 4:
+#     print(f"{a} / {b} = {a / b}")
+# else:
+#     print("Invalid choice")
+# con=input("Do you wish to continue (yes/no) ?")
+# if con.lower() != 'yes':
+
+
+
+
+
 
 
 # a=int(input("Enter first number"))
@@ -80,3 +87,22 @@ input("Do you wish to continue (yes/no) ?")
 #         print(a/b)
 #     case __:
 #         print("Invalid choice")
+
+# while True:
+# num1=int(input("Enter first number :"))
+# b=int(input("Enter the second number :"))
+# print("1.Addition\n2.Substraction\n3.Multiply\n4.division")
+# choice=int(input("enter your choice:"))
+# if choice == 1:
+#     print(f"{a} + {b} = {a + b}")
+# elif choice == 2:
+#     print(f"{a} - {b} = {a - b}")
+# elif choice == 3:
+#     print(f"{a} * {b} = {a * b}")
+# elif choice == 4:
+#     print(f"{a} / {b} = {a / b}")
+# else:
+#     print("Invalid choice")
+# con=input("Do you wish to continue (yes/no) ?")
+# if con.lower() != 'yes':
+#     break

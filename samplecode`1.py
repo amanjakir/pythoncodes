@@ -7,14 +7,14 @@
 
 
 name=input(" Enter your name :")
- age=input(" Enter your age :")
+age=input(" Enter your age :")
 print("My name is ",name,"i am ",age," years old")
 # print(f"My name is {name} i am {age} years old")
 # print(type(name))
 # print(type(age))
-v=type(c)
-v=int('67')
-print(type(v))
+# v=type(c)
+# v=int('67')
+# print(type(v))
 
 
 
