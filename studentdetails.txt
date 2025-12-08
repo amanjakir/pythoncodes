@@ -1,0 +1,2 @@
+aman|12|python
+aman|21|java

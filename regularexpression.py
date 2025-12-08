@@ -33,12 +33,7 @@ import re
 import re
 
 password=input("Enter the password ")
-# Requirements:
-# - 8 to 16 characters
-# - at least one lowercase letter
-# - at least one uppercase letter
-# - at least one digit
-# - at least one special character (non-alphanumeric)
+
 pattern = r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{8,16}$'
 if bool(re.match(pattern,password)):
     print("valid password")
